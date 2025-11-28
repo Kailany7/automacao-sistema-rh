@@ -1,28 +1,26 @@
-package com.rh_ponto.automatizacao.controller;
+//package com.rh_ponto.automatizacao.controller;
 
-import com.rh_ponto.automatizacao.model.Colaborador;
-import com.rh_ponto.automatizacao.repository.ColaboradorRepository;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
+//import org.springframework.beans.factory.annotation.Autowired;
+//import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
+//import java.util.List;
 
-@RestController
-@RequestMapping("/colaborador")
-public class ColaboradorController {
+//@RestController
+//@RequestMapping("/colaborador")
+//public class ColaboradorController {
 
-    @Autowired
-    private ColaboradorRepository colaboradorRepository;
+    //@Autowired
+    //private ColaboradorRepository colaboradorRepository;
 
     // Listar todos os colaboradores
-    @GetMapping("/listar")
-    public List<Colaborador> listar() {
-        return colaboradorRepository.findAll();
-    }
+    //@GetMapping("/listar")
+    //public List<Colaborador> listar() {
+        //return colaboradorRepository.findAll();
+    //}
 
     // Adicionar colaborador de teste
-    @PostMapping("/adicionar")
-    public Colaborador adicionar(@RequestBody Colaborador colaborador) {
-        return colaboradorRepository.save(colaborador);
-    }
-}
+    //@PostMapping("/adicionar")
+    //public Colaborador adicionar(@RequestBody Colaborador colaborador) {
+        //return colaboradorRepository.save(colaborador);
+    //}
+//}
