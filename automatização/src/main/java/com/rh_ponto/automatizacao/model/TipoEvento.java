@@ -15,7 +15,7 @@ public class TipoEvento {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id_tipo_evento;
 
-    @Column(name = "descricao_evento", nullable = false)
+    @Column(name = "descricao_evento", unique = true, nullable = false, length = 50)
     private String descricao_evento;
 
     public String getDescricao_evento() {

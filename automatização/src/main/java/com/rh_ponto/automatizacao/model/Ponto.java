@@ -1,11 +1,6 @@
 package com.rh_ponto.automatizacao.model;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Table;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
 import java.time.LocalDateTime;
 
@@ -23,8 +18,9 @@ public class Ponto {
     @Column(name = "id_colaborador", nullable = false)
     private Integer id_colaborador;
 
-    @Column(name = "id_tipo_evento", nullable = false)
-    private Integer id_tipo_evento;
+    @ManyToOne
+    @JoinColumn(name = "id_tipo_evento", nullable = false)
+    private TipoEvento id_tipo_evento;
 
     public LocalDateTime getData_hora() {
         return data_hora;
@@ -50,11 +46,11 @@ public class Ponto {
         this.id_ponto = id_ponto;
     }
 
-    public Integer getId_tipo_evento() {
+    public TipoEvento getId_tipo_evento() {
         return id_tipo_evento;
     }
 
-    public void setId_tipo_evento(Integer id_tipo_evento) {
+    public void setId_tipo_evento(TipoEvento id_tipo_evento) {
         this.id_tipo_evento = id_tipo_evento;
     }
 }

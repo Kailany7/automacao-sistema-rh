@@ -1,11 +1,6 @@
 package com.rh_ponto.automatizacao.model;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Table;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
 @Entity
 @Table(name = "auditoria_ponto")
@@ -19,8 +14,9 @@ public class AuditoriaPonto {
     @Column(name = "observacao_inconsistencia", nullable = false)
     private String observacao_inconsistencia;
 
-    @Column(name = "id_ponto", nullable = false)
-    private Integer id_ponto;
+    @ManyToOne
+    @JoinColumn(name = "id_ponto", nullable = false)
+    private Ponto id_ponto;
 
     public Integer getId_auditoria_ponto() {
         return id_auditoria_ponto;
@@ -30,11 +26,11 @@ public class AuditoriaPonto {
         this.id_auditoria_ponto = id_auditoria_ponto;
     }
 
-    public Integer getId_ponto() {
+    public Ponto getId_ponto() {
         return id_ponto;
     }
 
-    public void setId_ponto(Integer id_ponto) {
+    public void setId_ponto(Ponto id_ponto) {
         this.id_ponto = id_ponto;
     }
 
