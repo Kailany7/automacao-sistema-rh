@@ -20,22 +20,42 @@ public class ColaboradorService {
         this.setorRepo = setorRepo;
     }
 
+
     public ColaboradorDTO salvar(ColaboradorDTO dto) {
+
         Colaborador c = new Colaborador();
-        c.setNome(dto.getNome());
+
+        c.setNome_colaborador(dto.getNome());
         c.setCpf(dto.getCpf());
 
         Setor setor = setorRepo.findById(dto.getSetorId())
                 .orElseThrow(() -> new RuntimeException("Setor não encontrado"));
+
         c.setSetor(setor);
 
         c = colaboradorRepo.save(c);
 
-        dto.setIdColaborador(c.getIdColaborador());
+        dto.setIdColaborador(c.getId_colaborador());
+
         return dto;
     }
 
-    public List<Colaborador> listar() {
+
+    public List<ColaboradorDTO> listarDTO() {
+        return colaboradorRepo.findAll()
+                .stream()
+                .map(c -> {
+                    ColaboradorDTO dto = new ColaboradorDTO();
+                    dto.setIdColaborador(c.getId_colaborador());
+                    dto.setNome(c.getNome_colaborador());
+                    dto.setCpf(c.getCpf());
+                    dto.setSetorId(c.getSetor().getId_setor());
+                    return dto;
+                })
+                .toList();
+    }
+
+    public List<Colaborador> listarEntities() {
         return colaboradorRepo.findAll();
     }
 }

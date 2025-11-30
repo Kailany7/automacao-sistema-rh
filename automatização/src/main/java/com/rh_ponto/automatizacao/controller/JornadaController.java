@@ -23,7 +23,8 @@ public class JornadaController {
     }
 
     @GetMapping
-    public List<Jornada> listar() {
-        return service.listar();
+    public List<JornadaDTO> listar() {
+        return service.listarDTO();
     }
 }
+

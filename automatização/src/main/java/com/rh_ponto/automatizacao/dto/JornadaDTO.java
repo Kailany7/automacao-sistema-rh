@@ -4,9 +4,10 @@ import lombok.Data;
 
 @Data
 public class JornadaDTO {
-    private Long idJornada;
-    private String descricaoJornada;
+    private Integer idJornada;
+    private String descricao;
+    private Integer cargaHoraria;
     private String horaInicio;
     private String horaFim;
-    private Integer cargaHoraria;
+    private Integer colaboradorId;
 }

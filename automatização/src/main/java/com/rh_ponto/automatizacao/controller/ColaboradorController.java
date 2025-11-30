@@ -1,7 +1,6 @@
 package com.rh_ponto.automatizacao.controller;
 
 import com.rh_ponto.automatizacao.dto.ColaboradorDTO;
-import com.rh_ponto.automatizacao.model.Colaborador;
 import com.rh_ponto.automatizacao.service.ColaboradorService;
 import org.springframework.web.bind.annotation.*;
 
@@ -23,7 +22,7 @@ public class ColaboradorController {
     }
 
     @GetMapping
-    public List<Colaborador> listar() {
-        return service.listar();
+    public List<ColaboradorDTO> listar() {
+        return service.listarDTO();
     }
 }

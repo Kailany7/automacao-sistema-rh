@@ -17,12 +17,14 @@ public class SetorService {
     }
 
     public SetorDTO salvar(SetorDTO dto) {
+
         Setor setor = new Setor();
-        setor.setNomeSetor(dto.getNomeSetor());
+        setor.setNome_setor(dto.getNomeSetor());
 
         setor = repository.save(setor);
 
-        dto.setIdSetor(setor.getIdSetor());
+        dto.setIdSetor(setor.getId_setor());
+
         return dto;
     }
 

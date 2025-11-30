@@ -4,6 +4,6 @@ import lombok.Data;
 
 @Data
 public class SetorDTO {
-    private Long idSetor;
+    private Integer idSetor;
     private String nomeSetor;
 }
