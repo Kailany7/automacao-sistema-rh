@@ -1,4 +1,4 @@
-package com.rh_ponto.automatizacao.model
+package com.rh_ponto.automatizacao.model;
 
 import jakarta.persistence.*;
 

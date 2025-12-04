@@ -30,19 +30,19 @@ public class SetorController {
 
     // Buscar setor por ID
     @GetMapping("/{id}")
-    public Setor buscar(@PathVariable Long id) {
+    public Setor buscar(@PathVariable Integer id) {
         return service.buscarPorId(id);
     }
 
     // Atualizar setor
     @PutMapping("/{id}")
-    public Setor atualizar(@PathVariable Long id, @RequestBody Setor setor) {
+    public Setor atualizar(@PathVariable Integer id, @RequestBody Setor setor) {
         return service.atualizar(id, setor);
     }
 
     // Deletar setor
     @DeleteMapping("/{id}")
-    public void deletar(@PathVariable Long id) {
+    public void deletar(@PathVariable Integer id) {
         service.deletar(id);
     }
 }

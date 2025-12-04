@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7f116986-d1a4-4121-a8a3-7e22eeaa002c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/_automatizacao.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/automatizacao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/automatizacao/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automatizacao/src/main/java/com/rh_ponto/automatizacao/controller/ColaboradorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/automatizacao/src/main/java/com/rh_ponto/automatizacao/controller/ColaboradorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automatizacao/src/main/java/com/rh_ponto/automatizacao/controller/SetorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/automatizacao/src/main/java/com/rh_ponto/automatizacao/controller/SetorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automatizacao/src/main/java/com/rh_ponto/automatizacao/model/Colaborador.java" beforeDir="false" afterPath="$PROJECT_DIR$/automatizacao/src/main/java/com/rh_ponto/automatizacao/model/Colaborador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automatizacao/src/main/java/com/rh_ponto/automatizacao/service/ColaboradorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/automatizacao/src/main/java/com/rh_ponto/automatizacao/service/ColaboradorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automatizacao/src/main/java/com/rh_ponto/automatizacao/service/JornadaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/automatizacao/src/main/java/com/rh_ponto/automatizacao/service/JornadaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automatizacao/src/main/java/com/rh_ponto/automatizacao/service/SetorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/automatizacao/src/main/java/com/rh_ponto/automatizacao/service/SetorService.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="36OGuOlAGnvaj4fYRBdOnaGgciF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "leticia__branch",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/WEBREST",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f116986-d1a4-4121-a8a3-7e22eeaa002c" name="Changes" comment="" />
+      <created>1764870431255</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1764870431255</updated>
+      <workItem from="1764870434531" duration="7000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,4 +1,4 @@
-package com.rh_ponto.automatizacao.Service;
+package com.rh_ponto.automatizacao.service;
 
 import com.rh_ponto.automatizacao.model.Colaborador;
 import com.rh_ponto.automatizacao.model.Setor;

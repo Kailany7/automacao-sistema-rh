@@ -1,5 +1,6 @@
 package com.rh_ponto.automatizacao.controller;
 
+
 import com.rh_ponto.automatizacao.model.Colaborador;
 import com.rh_ponto.automatizacao.service.ColaboradorService;
 import org.springframework.web.bind.annotation.*;
