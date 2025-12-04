@@ -18,4 +18,8 @@ public class AuditoriaPontoService {
     public List<AuditoriaPonto> listar() {
         return repository.findAll();
     }
+
+    public AuditoriaPonto criar(AuditoriaPonto auditoria) {
+        return repository.save(auditoria);
+    }
 }

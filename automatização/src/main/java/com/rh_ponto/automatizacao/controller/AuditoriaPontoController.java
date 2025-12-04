@@ -20,4 +20,9 @@ public class AuditoriaPontoController {
     public List<AuditoriaPonto> listar() {
         return service.listar();
     }
+
+    @PostMapping
+    public AuditoriaPonto criar(@RequestBody AuditoriaPonto auditoria) {
+        return service.criar(auditoria);
+    }
 }
